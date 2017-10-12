@@ -9,27 +9,6 @@ $(document).ready(function(){
 });
 
 
-//
-// $(window).on('mousemove', function (e) {
-//     const x = e.pageX;
-//     const y = e.pageY;
-//
-//     const size = (Math.random() * 10) + 'em';
-//
-//     const $bubble = $('<div class="bubble"></div>').css({
-//       left: x,
-//       top: y,
-//       width: size,
-//       height: size
-//     });
-//
-//     $bubble.appendTo($body);
-//
-//     $bubble.animate({top: -200}, 2000, function () {
-//       $bubble.remove(); // Clean up to conserve memory.
-//
-//     });
-//   });
 $(".icon-number").click(function(e){
   $("#number").toggle(1000);
     e.preventDefault();
@@ -38,8 +17,8 @@ $(".icon-number").click(function(e){
 
 
 
-  $(".type-wrap span:last").typed({
-  	strings: ["^1000 Hi, my name is <strong>Mina</strong>"],
+  var typed = new Typed("#typed", {
+    strings: ["^1000 Hi, my name is <strong>Mina</strong>"],
   	typeSpeed: 50,
   	loop: false,
   	contentType: 'html'
@@ -65,6 +44,11 @@ $(".text-uppercase-3").click(function (e){
 
 $(".text-uppercase-1").click(function (e){
   $('body').animate({scrollTop: $('#section1').position().top});
+  e.preventDefault();
+});
+
+$(".text-uppercase-2").click(function (e){
+  $('body').animate({scrollTop: $('#section2').position().top});
   e.preventDefault();
 });
 
