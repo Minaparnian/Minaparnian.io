@@ -31,12 +31,12 @@ section {
 	text-align: center;
 
 	.parallax-1 {
-		height: 122vh;
+		height: 100%;
 		width: 100%;
 		position: relative;
 		overflow: hidden;
 		.new-parallax {
-			height: 100vh;
+			height: 100%;
 			width: 100%;
 			position: relative;
 			background-color: $brown;
@@ -115,7 +115,7 @@ section {
 				text-align: left;
 				// margin-left: 320px;
 				// padding-top: 300px;
-				margin: 20% auto;
+				margin: auto;
 
         #typed {
         	font-size: 80px;
@@ -424,25 +424,5 @@ img {
 		width: 50%;
 	}
 
-	.type-wrap {
-		width: 80%;
-		color: $white;
-		text-align: left;
-		// margin-left: 320px;
-		// padding-top: 300px;
-		margin: 20% auto;
-
-		#typed {
-			font-size: 20px;
-			font-family: $font_family_1;
-			font-weight: 200;
-		}
-		.about-1 {
-			font-size: 10px;
-			#red {
-				color: $red;
-			}
-		}
-	}//type-wrap
 
 }

@@ -15,12 +15,12 @@ section {
   margin-top: 0;
   text-align: center; }
   section .parallax-1 {
-    height: 122vh;
+    height: 100%;
     width: 100%;
     position: relative;
     overflow: hidden; }
     section .parallax-1 .new-parallax {
-      height: 100vh;
+      height: 100%;
       width: 100%;
       position: relative;
       background-color: #1d1d1d;
@@ -85,7 +85,7 @@ section {
         width: 50%;
         color: #ffffff;
         text-align: left;
-        margin: 20% auto; }
+        margin: auto; }
         section .parallax-1 .new-parallax .type-wrap #typed {
           font-size: 80px;
           font-family: "Lato", sans-serif;
@@ -300,20 +300,6 @@ img {
     width: 65%; } }
 @media (max-width: 600px) {
   main {
-    width: 50%; }
-
-  .type-wrap {
-    width: 80%;
-    color: #ffffff;
-    text-align: left;
-    margin: 20% auto; }
-    .type-wrap #typed {
-      font-size: 20px;
-      font-family: "Lato", sans-serif;
-      font-weight: 200; }
-    .type-wrap .about-1 {
-      font-size: 10px; }
-      .type-wrap .about-1 #red {
-        color: #f64747; } }
+    width: 50%; } }
 
 /*# sourceMappingURL=style.css.map */
