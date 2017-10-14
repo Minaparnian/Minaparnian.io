@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <title>Portfolio</title>
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="animate.min.css">
+  <!-- <link rel="stylesheet" href="animate.min.css"> -->
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 
 </head>
@@ -12,7 +12,7 @@
 
 
 
-<section id="section1">
+<section id="section1", class="particles">
 
   <div class="parallax-1">
    <div class="new-parallax">
@@ -86,9 +86,9 @@
      <div class="container">
          <h1 class="headline center">My Skills</h1>
 
-         <div class="row skills-row">
+         <div class="skills-row">
 
-           <div class="center skills-container bottom">
+           <div class="center">
              <ul>
                <li><img src="image/HTML5.png" alt=""></li>
                <li><img src="image/css3.png" alt=""></li>
@@ -96,7 +96,7 @@
 
              </ul>
            </div>
-           <div class="center skills-container bottom">
+           <div class="center">
              <ul>
                <li><img src="image/ruby.png" alt=""></li>
                <li><img src="image/rails.png" alt=""></li>
@@ -106,7 +106,7 @@
              </ul>
            </div>
 
-           <div class="center skills-container bottom">
+           <div class="center">
              <ul>
                <li><img src="image/sass.png" alt=""></li>
                <li><img src="image/nodejs.png" alt=""></li>
@@ -116,7 +116,7 @@
              </ul>
            </div>
 
-           <div class="center skills-container bottom">
+           <div class="center">
              <ul>
                <li><img src="image/reactjsicon.png" alt=""></li>
                <li><img src="image/heroku.jpg" alt=""></li>
@@ -125,7 +125,7 @@
              </ul>
            </div>
 
-           <div class="center skills-container bottom">
+           <div class="center">
              <ul>
                <li><img src="image/postgresql.png" alt=""></li>
                <li><img src="image/bootstrap-logo.jpg" alt=""></li>
@@ -134,7 +134,7 @@
              </ul>
            </div>
 
-           <div class="center skills-container bottom">
+           <div class="center">
              <ul>
                <li><img src="image/Illustrator.png" alt=""></li>
                <li><img src="image/InDesign.png" alt=""></li>
@@ -252,6 +252,15 @@
  </div>
 
 
+ 
+
+ <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js" charset="utf-8"></script>
+ <script>
+    //first: gets <div>, second: holds configurations, third: function that will fire when json is loaded
+    particlesJS.load('particles-js', 'particles.json', function() {
+      console.log('particles.json file loaded.');
+    });
+ </script>
  <script src="js/typed.js"></script>
  <script src="js/jquery.js"></script>
  <script src="js/main.js"></script>
