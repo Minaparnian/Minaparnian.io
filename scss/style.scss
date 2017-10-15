@@ -197,7 +197,7 @@ section {
   height: 100%;
   width: 100%;
   position: relative;
-  background-color: $medium-grey;
+  background-color: $white;
   display: flex;
   .container-left {
     height: 100%;
@@ -205,10 +205,21 @@ section {
     background-color: $white;
   }
   .container-right {
-    height: 100%;
     width: 50%;
     padding: 0 50px 0 50px;
+		margin: auto;
     background-color: $white;
+			a {
+	    	text-decoration: none;
+	    	&:hover {
+	    		color: $hover-pink;
+	    		opacity: 0.3;
+	    		transition: opacity 0.5s linear;
+	    		animation-play-state: running;
+	    		text-decoration: none;
+	    	}
+
+		}
     .container-right-content {
       margin: 20px;
       margin: auto;
@@ -245,16 +256,21 @@ section {
   .skills-row {
   	display: flex;
     margin: 20px auto;
-  	width: 768px;
+  	width: 90%;
   }
   .center {
   	text-align: center;
+		ul {
+      padding: 0;
+
     li {
       list-style-type: none;
+
       img {
         margin: 10px;
+				width: 60%;
       }
-
+		}//ul
     }//li
   }//center
 
