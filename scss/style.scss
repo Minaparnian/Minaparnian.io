@@ -200,9 +200,10 @@ section {
   background-color: $white;
   display: flex;
   .container-left {
-    height: 100%;
+    margin: auto;
     width: 50%;
     background-color: $white;
+		padding: 0 50px 0 50px;
   }
   .container-right {
     width: 50%;
@@ -221,8 +222,6 @@ section {
 
 		}
     .container-right-content {
-      margin: 20px;
-      margin: auto;
       text-align: left;
     }
   }
@@ -268,7 +267,7 @@ section {
 
       img {
         margin: 10px;
-				width: 60%;
+				width: 50%;
       }
 		}//ul
     }//li
@@ -382,7 +381,7 @@ main{
   }//box-center
 
   .icon {
-  	width: 60%;
+  	width: 50%;
   	display: inline;
   }
 

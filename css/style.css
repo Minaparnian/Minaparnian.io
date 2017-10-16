@@ -145,9 +145,10 @@ section {
   background-color: #ffffff;
   display: flex; }
   .about-me .container-left {
-    height: 100%;
+    margin: auto;
     width: 50%;
-    background-color: #ffffff; }
+    background-color: #ffffff;
+    padding: 0 50px 0 50px; }
   .about-me .container-right {
     width: 50%;
     padding: 0 50px 0 50px;
@@ -162,8 +163,6 @@ section {
         animation-play-state: running;
         text-decoration: none; }
     .about-me .container-right .container-right-content {
-      margin: 20px;
-      margin: auto;
       text-align: left; }
 
 .skills-section {
@@ -197,7 +196,7 @@ section {
         list-style-type: none; }
         .skills-section .center ul li img {
           margin: 10px;
-          width: 60%; }
+          width: 50%; }
   .skills-section .skills-white {
     color: #ffffff; }
 
@@ -278,7 +277,7 @@ main {
       font-weight: 200;
       color: #ECECEC; }
   .contact .icon {
-    width: 60%;
+    width: 50%;
     display: inline; }
   .contact .image {
     width: 30%;
