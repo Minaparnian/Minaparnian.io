@@ -37,7 +37,7 @@ $(window).scroll(function() {
 
 
 $(".text-uppercase-3").click(function (e){
-  $('body').animate({scrollTop: $('#section3').position().top});
+  $('body').animate({scrollTop: $('#section3').position().top}, 1000);
   e.preventDefault();
 });
 

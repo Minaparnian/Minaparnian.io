@@ -23,12 +23,11 @@ section {
       height: 100%;
       width: 100%;
       position: relative;
-      background-color: #1d1d1d;
+      background-color: #ff414b;
       display: flex; }
       section .parallax-1 .new-parallax .nav {
         height: 100%;
         width: 45px;
-        background-color: #151515;
         padding-top: 20px;
         padding-left: 15px; }
         section .parallax-1 .new-parallax .nav .col {
@@ -89,36 +88,36 @@ section {
         section .parallax-1 .new-parallax .type-wrap #typed {
           font-size: 80px;
           font-family: "Lato", sans-serif;
-          font-weight: 200; }
+          font-weight: 200;
+          text-shadow: 0 2px 2px #000; }
         section .parallax-1 .new-parallax .type-wrap .about-1 {
           font-size: 17px; }
           section .parallax-1 .new-parallax .type-wrap .about-1 #red {
-            color: #f64747; }
+            color: #1d1d1d; }
       section .parallax-1 .new-parallax #sidebar {
         animation-duration: .2s;
-        background-color: rgba(255, 255, 255, 0.4);
+        background: #fff;
         height: 100%;
-        left: 61px;
+        left: 0;
+        position: fixed;
         top: 0;
-        width: 300px;
-        z-index: 1;
-        position: fixed; }
+        width: 100%;
+        z-index: 1; }
         section .parallax-1 .new-parallax #sidebar ul {
           display: table;
           position: relative;
           width: 100%;
-          padding-left: 0; }
+          padding-left: 0;
+          padding-top: 120px; }
           section .parallax-1 .new-parallax #sidebar ul li {
             border-style: none;
             display: table;
-            font-size: 20px;
-            font-weight: 400;
+            font-size: 40px;
+            font-weight: 600;
             height: 60px;
             margin-bottom: 5px;
-            width: 100%; }
-            section .parallax-1 .new-parallax #sidebar ul li:hover {
-              background-color: #151515 !important;
-              color: #546a7b !important; }
+            width: 100%;
+            color: #ff414b; }
             section .parallax-1 .new-parallax #sidebar ul li a {
               background-color: rgba(84, 106, 123, 0);
               color: inherit;
@@ -131,7 +130,7 @@ section {
               vertical-align: middle;
               width: 100%; }
               section .parallax-1 .new-parallax #sidebar ul li a:hover {
-                color: #ffffff !important;
+                color: #151515 !important;
                 transform: translate(5px, 0);
                 transition: .2s linear; }
 
@@ -266,7 +265,7 @@ main {
   .contact .contact-content {
     height: 100%;
     width: 100%;
-    background-color: #f64747;
+    background-color: #ff414b;
     display: flex; }
   .contact .box-center {
     width: 50%;

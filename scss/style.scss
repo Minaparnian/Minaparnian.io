@@ -1,6 +1,6 @@
 $white: #ffffff;
 $light-gray: #ECECEC;
-$red: #f64747;
+$red: #ff414b;
 $medium-grey: #7f8c8d;
 $hover-pink: #F1A9A0;
 $hover-grey: #546a7b;
@@ -39,14 +39,16 @@ section {
 			height: 100%;
 			width: 100%;
 			position: relative;
-			background-color: $brown;
+			background-color: $red;
 			display: flex;
+
 			.nav {
 				height: 100%;
 				width: 45px;
-				background-color: $black;
+				// background-color: $black;
 				padding-top: 20px;
 				padding-left: 15px;
+
         .col {
         	display: block;
         	float: left;
@@ -121,41 +123,55 @@ section {
         	font-size: 80px;
         	font-family: $font_family_1;
         	font-weight: 200;
+					text-shadow: 0 2px 2px #000;
         }
         .about-1 {
         	font-size: 17px;
           #red {
-          	color: $red;
+          	color: $brown;
           }
         }
 			}//type-wrap
 
       #sidebar {
-      	animation-duration: .2s;
-      	background-color: rgba(255, 255, 255, 0.4);
-      	height: 100%;
-      	left: 61px;
-      	top: 0;
-      	width: 300px;
-      	z-index: 1;
-      	position: fixed;
+      	// animation-duration: .2s;
+      	// background-color: rgba(255, 255, 255, 0.4);
+      	// height: 100%;
+      	// left: 61px;
+      	// top: 0;
+      	// width: 300px;
+      	// z-index: 1;
+      	// position: fixed;
+
+				animation-duration: .2s;
+				background: #fff;
+				height: 100%;
+				left: 0;
+				// opacity: 0;
+				// padding: 20px 60px;
+				position: fixed;
+				top: 0;
+				width: 100%;
+				z-index: 1;
 
       	ul {
       		display: table;
       		position: relative;
       		width: 100%;
       		padding-left: 0;
+					padding-top: 120px;
       		li {
       			border-style: none;
       			display: table;
-      			font-size: 20px;
-      			font-weight: 400;
+      			font-size: 40px;
+      			font-weight: 600;
       			height: 60px;
       			margin-bottom: 5px;
       			width: 100%;
+						color: $red;
       			&:hover {
-      				background-color: $black !important;
-      				color: $hover-grey !important;
+      				// background-color: $black !important;
+      				// color: $red !important;
       			}
       			a {
       				background-color: rgba(84, 106, 123, 0);
@@ -169,7 +185,7 @@ section {
       				vertical-align: middle;
       				width: 100%;
       				&:hover {
-      					color: $white !important;
+      					color: $black !important;
       					transform: translate(5px, 0);
       					transition: .2s linear;
       				}
