@@ -313,11 +313,46 @@ img {
     width: 100%;
     position: relative;
     background-color: #1d1d1d;
-    display: flex; } }
+    display: flex; }
+
+  #typed {
+    font-size: 30px; }
+
+  .contact .box-center {
+    width: 57%;
+    margin: auto;
+    color: #ffffff; }
+
+  section .parallax-1 .new-parallax .type-wrap {
+    width: 100%;
+    color: #ffffff;
+    text-align: left;
+    margin: auto; }
+
+  .about-me {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-color: #ffffff;
+    display: inline-block; }
+    .about-me .container-right {
+      width: 100%;
+      padding: 0; }
+    .about-me .container-right .container-right-content {
+      text-align: center;
+      padding: 40px; }
+      .about-me .container-right .container-right-content h1 {
+        font-size: 25px; }
+      .about-me .container-right .container-right-content p {
+        font-size: 11px; }
+    .about-me .container-left {
+      padding: 15px 50px 0 50px; }
+
+  .skills-section .center ul li img {
+    margin: 10px;
+    width: 80%; } }
 @media (max-width: 600px) {
   main {
-    width: 50%; } }
-@-ms-viewport {
-  width: device-width; }
+    width: 100%; } }
 
 /*# sourceMappingURL=style.css.map */
