@@ -335,7 +335,9 @@ img {
     width: 100%;
     position: relative;
     background-color: #1d1d1d;
-    display: flex; }
+    display: flex;
+    background-image: url(../image/a22.jpg);
+    background-attachment: initial; }
 
   #typed {
     font-size: 30px; }
