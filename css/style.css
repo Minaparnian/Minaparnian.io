@@ -337,7 +337,9 @@ img {
     background-color: #1d1d1d;
     display: flex;
     background-image: url(../image/a22.jpg);
-    background-attachment: initial; }
+    background-position: center center;
+    background-attachment: initial;
+    background-size: contain; }
 
   #typed {
     font-size: 30px; }

@@ -496,10 +496,10 @@ img {
 		background-color: $brown;
 		display: flex;
 		background-image: url(../image/a22.jpg);
-		// background-position: center center;
+		background-position: center center;
 		// background-repeat: no-repeat;
 		background-attachment: initial;
-		// background-size: cover;
+		background-size: contain;
 	}
 
 
