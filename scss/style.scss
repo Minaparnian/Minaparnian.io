@@ -241,6 +241,9 @@ section {
 		}
     .container-right-content {
       text-align: left;
+			h1 {
+				text-shadow: 0 2px 2px $light-gray;
+			}
     }
   }
 }
@@ -269,6 +272,7 @@ section {
     	color: $white;
     	line-height: 80px;
     	font-size: 2.5em;
+			text-shadow: 0 2px 2px $medium-grey;
     	// padding-bottom: 10px;
     }
   }
@@ -308,6 +312,7 @@ main{
   	font-size: 60px;
   	color: $light-gray;
   	padding-top: 20px;
+		text-shadow: 0 2px 2px $medium-grey;
 
   }
   .about-my-project {
@@ -321,6 +326,7 @@ main{
   	padding: 30px;
     h3 {
     	font-size: 42px;
+			text-shadow: 0 2px 2px $white;
     }
     p {
     	font-weight: 300;
@@ -399,6 +405,8 @@ main{
     	font-size: 36px;
     	font-weight: 200;
     	color: $light-gray;
+			text-shadow: 0 2px 2px $medium-grey;
+
     }
   }//box-center
 
@@ -441,6 +449,20 @@ a {
 img {
   width: 90%;
 }
+
+.logo {
+	height: 10%;
+	width: 10%;
+
+}
+
+
+.logo-logo {
+	text-shadow: 0 2px 2px #000;
+	float: right;
+
+}
+
 
 
 ///// svg ///////////////////////////////////
@@ -504,7 +526,7 @@ section .parallax-1 .new-parallax .type-wrap {
 
 		.container-right .container-right-content {
 		    text-align: center;
-		    padding: 40px;
+		    padding: 5px 40px;
 				h1 {
 					font-size: 25px;
 				}
@@ -557,18 +579,6 @@ section .parallax-1 .new-parallax .type-wrap {
 //
 // }
 
-.logo {
-	height: 10%;
-	width: 10%;
-
-}
-
-
-.logo-logo {
-	text-shadow: 0 2px 2px #000;
-	float: right;
-
-}
 
 
 // #number{

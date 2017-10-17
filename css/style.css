@@ -163,6 +163,8 @@ section {
         text-decoration: none; }
     .about-me .container-right .container-right-content {
       text-align: left; }
+      .about-me .container-right .container-right-content h1 {
+        text-shadow: 0 2px 2px #ECECEC; }
 
 .skills-section {
   height: 100%;
@@ -178,7 +180,8 @@ section {
     .skills-section .container .headline {
       color: #ffffff;
       line-height: 80px;
-      font-size: 2.5em; }
+      font-size: 2.5em;
+      text-shadow: 0 2px 2px #7f8c8d; }
   .skills-section .skills-row {
     display: flex;
     margin: 20px auto;
@@ -201,7 +204,8 @@ main {
   main .my-project {
     font-size: 60px;
     color: #ECECEC;
-    padding-top: 20px; }
+    padding-top: 20px;
+    text-shadow: 0 2px 2px #7f8c8d; }
   main .about-my-project {
     font-size: 21px;
     color: #ECECEC;
@@ -210,7 +214,8 @@ main {
     margin-bottom: 100px;
     padding: 30px; }
     main .img-center h3 {
-      font-size: 42px; }
+      font-size: 42px;
+      text-shadow: 0 2px 2px #ffffff; }
     main .img-center p {
       font-weight: 300;
       line-height: 150%; }
@@ -271,7 +276,8 @@ main {
     .contact .box-center .contact-h1 {
       font-size: 36px;
       font-weight: 200;
-      color: #ECECEC; }
+      color: #ECECEC;
+      text-shadow: 0 2px 2px #7f8c8d; }
   .contact .icon {
     width: 50%;
     display: inline; }
@@ -298,6 +304,14 @@ a {
 
 img {
   width: 90%; }
+
+.logo {
+  height: 10%;
+  width: 10%; }
+
+.logo-logo {
+  text-shadow: 0 2px 2px #000;
+  float: right; }
 
 .diagonal-bg {
   position: fixed;
@@ -342,7 +356,7 @@ img {
       padding: 0; }
     .about-me .container-right .container-right-content {
       text-align: center;
-      padding: 40px; }
+      padding: 5px 40px; }
       .about-me .container-right .container-right-content h1 {
         font-size: 25px; }
       .about-me .container-right .container-right-content p {
@@ -357,12 +371,5 @@ img {
   .contact .icon {
     width: 100%;
     display: inline; } }
-.logo {
-  height: 10%;
-  width: 10%; }
-
-.logo-logo {
-  text-shadow: 0 2px 2px #000;
-  float: right; }
 
 /*# sourceMappingURL=style.css.map */
