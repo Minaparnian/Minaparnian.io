@@ -24,7 +24,7 @@ section {
       width: 100%;
       position: relative;
       background-color: #ff414b;
-      background-image: url(../image/colorful.png);
+      background-image: url(../image/a22.jpg);
       background-position: center center;
       background-repeat: no-repeat;
       background-attachment: fixed;
@@ -90,15 +90,16 @@ section {
         color: #ffffff;
         text-align: left;
         margin: auto; }
+        section .parallax-1 .new-parallax .type-wrap h2 {
+          text-shadow: 0 1px 1px #000; }
         section .parallax-1 .new-parallax .type-wrap #typed {
           font-size: 80px;
           font-family: "Lato", sans-serif;
           font-weight: 200;
           text-shadow: 0 2px 2px #000; }
         section .parallax-1 .new-parallax .type-wrap .about-1 {
-          font-size: 17px; }
-          section .parallax-1 .new-parallax .type-wrap .about-1 #red {
-            color: #1d1d1d; }
+          font-size: 17px;
+          text-shadow: 0 1px 1px #000; }
       section .parallax-1 .new-parallax #sidebar {
         animation-duration: .2s;
         background: #fff;

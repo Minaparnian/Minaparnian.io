@@ -40,7 +40,7 @@ section {
 			width: 100%;
 			position: relative;
 			background-color: $red;
-			background-image: url(../image/colorful.png);
+			background-image: url(../image/a22.jpg);
 			background-position: center center;
       background-repeat: no-repeat;
       background-attachment: fixed;
@@ -124,6 +124,9 @@ section {
 				// margin-left: 320px;
 				// padding-top: 300px;
 				margin: auto;
+				h2 {
+					text-shadow: 0 1px 1px #000;
+				}
 
         #typed {
         	font-size: 80px;
@@ -133,9 +136,8 @@ section {
         }
         .about-1 {
         	font-size: 17px;
-          #red {
-          	color: $brown;
-          }
+					text-shadow: 0 1px 1px #000;
+
         }
 			}//type-wrap
 
