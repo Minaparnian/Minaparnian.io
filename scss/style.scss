@@ -303,15 +303,17 @@ section {
 
 main{
   width: 70%;
-	margin: 20em auto;
+	margin: 5em auto;
   .my-project {
   	font-size: 60px;
   	color: $light-gray;
-  	padding-top: 90px;
+  	padding-top: 20px;
+
   }
   .about-my-project {
   	font-size: 21px;
   	color: $light-gray;
+		padding: 20px;
   }
 
   .img-center {
@@ -417,16 +419,21 @@ main{
     		animation-play-state: running;
     		text-decoration: none;
     	}
-      #number {
-      	display: none;
-      	font-size: 20px;
-      	color: $white;
-      }
-
     }
   }//image
 
 }//contact
+
+#number {
+	display: none;
+	font-size: 20px;
+	color: $white;
+	text-decoration: none;
+}
+
+a {
+	text-decoration: none;
+}
 
 
 ////////Mic//////////////////////////////////////////
@@ -564,11 +571,7 @@ section .parallax-1 .new-parallax .type-wrap {
 }
 
 
-#number{
-	text-decoration: none;
-	color: white;
-}
-
-a {
-	text-decoration: none;
-}
+// #number{
+// 	text-decoration: none;
+// 	color: white;
+// }
