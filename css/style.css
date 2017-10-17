@@ -24,6 +24,11 @@ section {
       width: 100%;
       position: relative;
       background-color: #ff414b;
+      background-image: url(../image/colorful.png);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
       display: flex; }
       section .parallax-1 .new-parallax .nav {
         height: 100%;

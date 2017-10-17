@@ -18,7 +18,7 @@ $(".icon-number").click(function(e){
 
 
   var typed = new Typed("#typed", {
-    strings: ["^1000 Hi, my name is <strong>Mina</strong>"],
+    strings: ["^1000 Front End Developer"],
   	typeSpeed: 50,
   	loop: false,
   	contentType: 'html'
