@@ -331,7 +331,7 @@ img {
     width: 100%; }
 
   .new-parallax {
-    width: 100%;
+    width: 100vw;
     position: relative;
     background-color: #1d1d1d;
     display: flex;
