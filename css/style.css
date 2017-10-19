@@ -332,6 +332,7 @@ img {
     width: 100%; }
 
   .new-parallax {
+    width: 100%;
     position: relative;
     display: flex;
     background-image: url(../image/a22.jpg);
