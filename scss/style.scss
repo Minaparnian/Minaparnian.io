@@ -417,8 +417,9 @@ main{
   }//box-center
 
   .icon {
-  	width: 50%;
+  	width: 30%;
   	display: inline;
+		padding: 20px;
   }
 
   .image {
@@ -490,10 +491,9 @@ img {
 	}
 
 	.new-parallax {
-
-		width: 100vw;
+		// width: 100vw;
 		position: relative;
-		background-color: $brown;
+		// background-color: $brown;
 		display: flex;
 		background-image: url(../image/a22.jpg);
 		background-position: center center;
@@ -557,8 +557,9 @@ section .parallax-1 .new-parallax .type-wrap {
 }
 
 .contact .icon {
-    width: 100%;
-    display: inline;
+	 width: 50%;
+   display: inline;
+   padding: 10px;
 }
 
 }

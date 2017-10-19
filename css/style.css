@@ -285,8 +285,9 @@ main {
       color: #ECECEC;
       text-shadow: 0 2px 2px #7f8c8d; }
   .contact .icon {
-    width: 50%;
-    display: inline; }
+    width: 30%;
+    display: inline;
+    padding: 20px; }
   .contact .image {
     width: 30%;
     display: inline-block; }
@@ -331,9 +332,7 @@ img {
     width: 100%; }
 
   .new-parallax {
-    width: 100vw;
     position: relative;
-    background-color: #1d1d1d;
     display: flex;
     background-image: url(../image/a22.jpg);
     background-position: center center;
@@ -380,7 +379,8 @@ img {
     width: 80%; }
 
   .contact .icon {
-    width: 100%;
-    display: inline; } }
+    width: 50%;
+    display: inline;
+    padding: 10px; } }
 
 /*# sourceMappingURL=style.css.map */
