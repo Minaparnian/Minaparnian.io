@@ -30,11 +30,11 @@ section {
 	margin-top: 0;
 	text-align: center;
 
-	.parallax-1 {
-		height: 100%;
-		width: 100%;
-		position: relative;
-		overflow: hidden;
+	// .parallax-1 {
+	// 	height: 100%;
+	// 	width: 100%;
+	// 	position: relative;
+
 		.new-parallax {
 			height: 100%;
 			width: 100%;
@@ -46,6 +46,7 @@ section {
       background-attachment: fixed;
       background-size: cover;
 			display: flex;
+			overflow: hidden;
 
 
 			.nav {
@@ -203,7 +204,7 @@ section {
       }//sidebar
 
 		}//new-parallax
-	}//parallax-1
+	// }//parallax-1
 }//section
 
 .hidden {
@@ -491,9 +492,9 @@ img {
 	}
 
 	.new-parallax {
-		width: 100%;
+		// width: 100vw;
 		position: relative;
-		// background-color: $brown;
+
 		display: flex;
 		background-image: url(../image/a22.jpg);
 		background-position: center center;

@@ -14,131 +14,127 @@ section {
   height: 100%;
   margin-top: 0;
   text-align: center; }
-  section .parallax-1 {
+  section .new-parallax {
     height: 100%;
     width: 100%;
     position: relative;
+    background-color: #ff414b;
+    background-image: url(../image/a22.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
     overflow: hidden; }
-    section .parallax-1 .new-parallax {
+    section .new-parallax .nav {
       height: 100%;
-      width: 100%;
-      position: relative;
-      background-color: #ff414b;
-      background-image: url(../image/a22.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-size: cover;
-      display: flex; }
-      section .parallax-1 .new-parallax .nav {
-        height: 100%;
-        width: 45px;
-        padding-top: 20px;
-        padding-left: 15px; }
-        section .parallax-1 .new-parallax .nav .col {
+      width: 45px;
+      padding-top: 20px;
+      padding-left: 15px; }
+      section .new-parallax .nav .col {
+        display: block;
+        float: left;
+        margin: 1% 0 1% 1.6%; }
+        section .new-parallax .nav .col:first-of-type {
+          margin-left: 0; }
+      section .new-parallax .nav .hamburger {
+        z-index: 999999;
+        position: fixed; }
+        section .new-parallax .nav .hamburger .line {
+          width: 30px;
+          height: 5px;
+          background-color: #ECECEC;
           display: block;
-          float: left;
-          margin: 1% 0 1% 1.6%; }
-          section .parallax-1 .new-parallax .nav .col:first-of-type {
-            margin-left: 0; }
-        section .parallax-1 .new-parallax .nav .hamburger {
-          z-index: 999999;
-          position: fixed; }
-          section .parallax-1 .new-parallax .nav .hamburger .line {
-            width: 30px;
-            height: 5px;
-            background-color: #ECECEC;
-            display: block;
-            margin: 8px auto;
-            -webkit-transition: all 0.3s ease-in-out;
-            -o-transition: all 0.3s ease-in-out;
-            transition: all 0.3s ease-in-out;
-            z-index: 999999; }
-          section .parallax-1 .new-parallax .nav .hamburger:hover {
-            cursor: pointer; }
-        section .parallax-1 .new-parallax .nav #hamburger-6.is-active {
+          margin: 8px auto;
           -webkit-transition: all 0.3s ease-in-out;
           -o-transition: all 0.3s ease-in-out;
           transition: all 0.3s ease-in-out;
-          -webkit-transition-delay: 0.6s;
-          -o-transition-delay: 0.6s;
-          transition-delay: 0.6s;
-          -webkit-transform: rotate(45deg);
-          -ms-transform: rotate(45deg);
-          -o-transform: rotate(45deg);
-          transform: rotate(45deg); }
-          section .parallax-1 .new-parallax .nav #hamburger-6.is-active .line:nth-child(2) {
-            width: 0px; }
-          section .parallax-1 .new-parallax .nav #hamburger-6.is-active .line:nth-child(1) {
-            -webkit-transition-delay: 0.3s;
-            -o-transition-delay: 0.3s;
-            transition-delay: 0.3s;
-            -webkit-transform: translateY(13px);
-            -ms-transform: translateY(13px);
-            -o-transform: translateY(13px);
-            transform: translateY(13px); }
-          section .parallax-1 .new-parallax .nav #hamburger-6.is-active .line:nth-child(3) {
-            -webkit-transition-delay: 0.3s;
-            -o-transition-delay: 0.3s;
-            transition-delay: 0.3s;
-            -webkit-transform: translateY(-13px) rotate(90deg);
-            -ms-transform: translateY(-13px) rotate(90deg);
-            -o-transform: translateY(-13px) rotate(90deg);
-            transform: translateY(-13px) rotate(90deg); }
-      section .parallax-1 .new-parallax .type-wrap {
-        width: 50%;
-        color: #ffffff;
-        text-align: left;
-        margin: auto; }
-        section .parallax-1 .new-parallax .type-wrap h2 {
-          text-shadow: 0 1px 1px #000; }
-        section .parallax-1 .new-parallax .type-wrap #typed {
-          font-size: 80px;
-          font-family: "Lato", sans-serif;
-          font-weight: 200;
-          text-shadow: 0 2px 2px #000; }
-        section .parallax-1 .new-parallax .type-wrap .about-1 {
-          font-size: 17px;
-          text-shadow: 0 1px 1px #000; }
-      section .parallax-1 .new-parallax #sidebar {
-        animation-duration: .2s;
-        background: #fff;
-        height: 100%;
-        left: 0;
-        position: fixed;
-        top: 0;
+          z-index: 999999; }
+        section .new-parallax .nav .hamburger:hover {
+          cursor: pointer; }
+      section .new-parallax .nav #hamburger-6.is-active {
+        -webkit-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        -webkit-transition-delay: 0.6s;
+        -o-transition-delay: 0.6s;
+        transition-delay: 0.6s;
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        transform: rotate(45deg); }
+        section .new-parallax .nav #hamburger-6.is-active .line:nth-child(2) {
+          width: 0px; }
+        section .new-parallax .nav #hamburger-6.is-active .line:nth-child(1) {
+          -webkit-transition-delay: 0.3s;
+          -o-transition-delay: 0.3s;
+          transition-delay: 0.3s;
+          -webkit-transform: translateY(13px);
+          -ms-transform: translateY(13px);
+          -o-transform: translateY(13px);
+          transform: translateY(13px); }
+        section .new-parallax .nav #hamburger-6.is-active .line:nth-child(3) {
+          -webkit-transition-delay: 0.3s;
+          -o-transition-delay: 0.3s;
+          transition-delay: 0.3s;
+          -webkit-transform: translateY(-13px) rotate(90deg);
+          -ms-transform: translateY(-13px) rotate(90deg);
+          -o-transform: translateY(-13px) rotate(90deg);
+          transform: translateY(-13px) rotate(90deg); }
+    section .new-parallax .type-wrap {
+      width: 50%;
+      color: #ffffff;
+      text-align: left;
+      margin: auto; }
+      section .new-parallax .type-wrap h2 {
+        text-shadow: 0 1px 1px #000; }
+      section .new-parallax .type-wrap #typed {
+        font-size: 80px;
+        font-family: "Lato", sans-serif;
+        font-weight: 200;
+        text-shadow: 0 2px 2px #000; }
+      section .new-parallax .type-wrap .about-1 {
+        font-size: 17px;
+        text-shadow: 0 1px 1px #000; }
+    section .new-parallax #sidebar {
+      animation-duration: .2s;
+      background: #fff;
+      height: 100%;
+      left: 0;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1; }
+      section .new-parallax #sidebar ul {
+        display: table;
+        position: relative;
         width: 100%;
-        z-index: 1; }
-        section .parallax-1 .new-parallax #sidebar ul {
+        padding-left: 0;
+        padding-top: 120px; }
+        section .new-parallax #sidebar ul li {
+          border-style: none;
           display: table;
-          position: relative;
+          font-size: 40px;
+          font-weight: 600;
+          height: 60px;
+          margin-bottom: 5px;
           width: 100%;
-          padding-left: 0;
-          padding-top: 120px; }
-          section .parallax-1 .new-parallax #sidebar ul li {
-            border-style: none;
-            display: table;
-            font-size: 40px;
-            font-weight: 600;
-            height: 60px;
-            margin-bottom: 5px;
-            width: 100%;
-            color: #ff414b; }
-            section .parallax-1 .new-parallax #sidebar ul li a {
-              background-color: rgba(84, 106, 123, 0);
-              color: inherit;
-              display: table-cell;
-              height: 100%;
-              padding-left: 1.2em;
-              text-decoration: none;
-              transform: translate(-5px, 0);
-              transition: .6s ease-out;
-              vertical-align: middle;
-              width: 100%; }
-              section .parallax-1 .new-parallax #sidebar ul li a:hover {
-                color: #151515 !important;
-                transform: translate(5px, 0);
-                transition: .2s linear; }
+          color: #ff414b; }
+          section .new-parallax #sidebar ul li a {
+            background-color: rgba(84, 106, 123, 0);
+            color: inherit;
+            display: table-cell;
+            height: 100%;
+            padding-left: 1.2em;
+            text-decoration: none;
+            transform: translate(-5px, 0);
+            transition: .6s ease-out;
+            vertical-align: middle;
+            width: 100%; }
+            section .new-parallax #sidebar ul li a:hover {
+              color: #151515 !important;
+              transform: translate(5px, 0);
+              transition: .2s linear; }
 
 .hidden {
   display: none; }
@@ -332,7 +328,6 @@ img {
     width: 100%; }
 
   .new-parallax {
-    width: 100%;
     position: relative;
     display: flex;
     background-image: url(../image/a22.jpg);
