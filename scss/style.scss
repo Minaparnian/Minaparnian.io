@@ -24,7 +24,9 @@ body {
 
 #particles-js{
 background-color: #06203D;
-height: 400px;
+height: 100%;
+z-index: 999999;
+position: relative;
 }
 
 //// Section 1- home  //////////////////////////
@@ -131,6 +133,9 @@ section {
 				// margin-left: 320px;
 				// padding-top: 300px;
 				margin: auto;
+				position: absolute;
+				top: 200px;
+				left: 60px;
 				h2 {
 					font-size: 30px;
 					text-shadow: 0 2px 2px #000;
@@ -528,6 +533,9 @@ section .parallax-1 .new-parallax .type-wrap {
     color: #ffffff;
     text-align: left;
     margin: auto;
+		position: absolute;
+		top: 150px;
+		left: 10px;
 }
 
 // .about-1 {

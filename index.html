@@ -12,14 +12,15 @@
 </head>
 <body>
 
-<!-- <div id="particles-js"></div> -->
 
-<section id="section1", class="particles">
+
+<section id="section1">
 
 
  <!-- <div class="parallax-1"> -->
 
-   <div class="new-parallax">
+   <div class="new-parallax" id="particles-js">
+     <!-- <div id="particles-js"> -->
 
 
     <div class="nav">
@@ -64,8 +65,8 @@
 
 
 
-
- </div><!-- particles-js -->
+  </div>
+ <!-- </div><!-- particles-js --> -->
 </section><!-- section1 -->
 
 <section id="section2"
@@ -271,10 +272,73 @@
 
  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js" charset="utf-8"></script>
   <script>
+  var partJson = {
+    "particles":{
+        "number":{
+            "value":100
+        },
+      //   "color":{
+      //     "value":"#ffffff"
+      //   },
+      //   "shape":{
+      //     "type":["circle"],
+      //     "stroke":{
+      //       "width":0,
+      //       "color":"#0C7A67"
+      //     }
+      //   },
+        "opacity":{
+          "value":0.5,
+          "random":true,
+          "anim":{
+            "enable":true,
+            "speed":0.5
+          }
+        },
+        "size":{
+          "value":15,
+          "random":true,
+          "anim":{
+            "enable":true,
+            "speed": 3
+          }
+        },
+      //   "line_linked":{
+      //     "enable": false
+      //   }
+      // },
+      // "interactivity":{
+      //   "events":{
+      //     "onhover":{
+      //       "enable":true,
+      //       "mode":"repulse"
+      //     },
+      //     "onclick":{
+      //       "enable":true,
+      //       "mode":"bubble"
+      //     }
+      //   },
+      //   "modes":{
+      //     "repulse":{
+      //       "distance":100,
+      //       "duration":0.5
+      //     },
+      //     "bubble":{
+      //       "size":10
+      //     }
+        // }
+      }
+
+
+  }
+  var jsonUri = "data:text/plain;base64,"+window.btoa(JSON.stringify(partJson));
+  particlesJS.load('particles-js', jsonUri, function() {
+    console.log('particles.json file loaded.');
+  });
     //first: gets <div>, second: holds configurations, third: function that will fire when json is loaded
-    particlesJS.load('particles-js', 'particles.json', function() {
-      console.log('particles.json file loaded.');
-    });
+    // particlesJS.load('particles-js', 'particles.json', function() {
+    //   console.log('particles.json file loaded.');
+    // });
   </script>
  <script src="js/typed.js"></script>
  <script src="js/jquery.js"></script>
