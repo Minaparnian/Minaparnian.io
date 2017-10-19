@@ -9,6 +9,10 @@ body {
   height: 100%;
   font-family: "Lato", sans-serif; }
 
+#particles-js {
+  background-color: #06203D;
+  height: 400px; }
+
 section {
   position: relative;
   height: 100%;
@@ -82,18 +86,20 @@ section {
           -o-transform: translateY(-13px) rotate(90deg);
           transform: translateY(-13px) rotate(90deg); }
     section .new-parallax .type-wrap {
-      width: 50%;
+      width: 100%;
       color: #ffffff;
       text-align: left;
       margin: auto; }
       section .new-parallax .type-wrap h2 {
-        text-shadow: 0 1px 1px #000; }
+        font-size: 30px;
+        text-shadow: 0 2px 2px #000; }
       section .new-parallax .type-wrap #typed {
         font-size: 80px;
         font-family: "Lato", sans-serif;
         font-weight: 200;
         text-shadow: 0 2px 2px #000; }
       section .new-parallax .type-wrap .about-1 {
+        width: 80%;
         font-size: 17px;
         text-shadow: 0 1px 1px #000; }
     section .new-parallax #sidebar {

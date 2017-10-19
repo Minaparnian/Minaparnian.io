@@ -22,6 +22,10 @@ body {
 	font-family: $font_family_1;
 }
 
+#particles-js{
+background-color: #06203D;
+height: 400px;
+}
 
 //// Section 1- home  //////////////////////////
 section {
@@ -47,6 +51,8 @@ section {
       background-size: cover;
 			display: flex;
 			overflow: hidden;
+
+
 
 
 			.nav {
@@ -119,14 +125,15 @@ section {
         }//hamburger-6
 			}//nav
 			.type-wrap {
-				width: 50%;
+				width: 100%;
 				color: $white;
 				text-align: left;
 				// margin-left: 320px;
 				// padding-top: 300px;
 				margin: auto;
 				h2 {
-					text-shadow: 0 1px 1px #000;
+					font-size: 30px;
+					text-shadow: 0 2px 2px #000;
 				}
 
         #typed {
@@ -136,6 +143,7 @@ section {
 					text-shadow: 0 2px 2px #000;
         }
         .about-1 {
+					width: 80%;
         	font-size: 17px;
 					text-shadow: 0 1px 1px #000;
 
