@@ -518,9 +518,7 @@ img {
 	}
 
 
-	#typed {
-		font-size: 30px;
-	}
+
 
 	.contact .box-center {
     width: 57%;
@@ -536,6 +534,9 @@ section .parallax-1 .new-parallax .type-wrap {
 		position: absolute;
 		top: 150px;
 		left: 10px;
+		#typed {
+			font-size: 5px;
+		}
 }
 
 // .about-1 {
@@ -579,6 +580,10 @@ section .parallax-1 .new-parallax .type-wrap {
    padding: 10px;
 }
 
+}
+
+.h1-responsive {
+	font-size: 20px;
 }
 // @media (max-width: 700px) {
 // 	main {

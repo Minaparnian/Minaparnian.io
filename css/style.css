@@ -348,9 +348,6 @@ img {
     background-size: cover;
     display: flex; }
 
-  #typed {
-    font-size: 30px; }
-
   .contact .box-center {
     width: 57%;
     margin: auto;
@@ -364,6 +361,8 @@ img {
     position: absolute;
     top: 150px;
     left: 10px; }
+    section .parallax-1 .new-parallax .type-wrap #typed {
+      font-size: 5px; }
 
   .about-me {
     height: 100%;
@@ -392,5 +391,7 @@ img {
     width: 50%;
     display: inline;
     padding: 10px; } }
+.h1-responsive {
+  font-size: 20px; }
 
 /*# sourceMappingURL=style.css.map */
