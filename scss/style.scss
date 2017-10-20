@@ -585,38 +585,22 @@ section .parallax-1 .new-parallax .type-wrap {
 .h1-responsive {
 	font-size: 20px;
 }
-// @media (max-width: 700px) {
-// 	main {
-// 		width: 100%;
-// 	}
-//
-// .about-me {
-// 	.container-right {
-// 		width: 100%;
-// 		padding: 15px;
-// 	}
-//
-// 	.container-right-content {
-// 			text-align: center;
-// 			padding: 0;
-// 			h1 {
-// 				font-size: 20px;
-// 			}
-// 			p{
-// 				font-size: 10px;
-// 			}
-// 	}
-// 	.container-left {
-// 				padding: 15px 50px 0 50px;
-// 	}
-//
-// }
-//
-// }
 
-
-
-// #number{
-// 	text-decoration: none;
-// 	color: white;
-// }
+.hamburger {
+	z-index: 999999;
+	position: fixed;
+	.line {
+		width: 30px;
+		height: 5px;
+		background-color: $light-gray;
+		display: block;
+		margin: 8px auto;
+		-webkit-transition: all 0.3s ease-in-out;
+		-o-transition: all 0.3s ease-in-out;
+		transition: all 0.3s ease-in-out;
+		z-index: 999999;
+	}
+	&:hover {
+		cursor: pointer;
+	}
+}

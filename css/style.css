@@ -394,4 +394,20 @@ img {
 .h1-responsive {
   font-size: 20px; }
 
+.hamburger {
+  z-index: 999999;
+  position: fixed; }
+  .hamburger .line {
+    width: 30px;
+    height: 5px;
+    background-color: #ECECEC;
+    display: block;
+    margin: 8px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    z-index: 999999; }
+  .hamburger:hover {
+    cursor: pointer; }
+
 /*# sourceMappingURL=style.css.map */
