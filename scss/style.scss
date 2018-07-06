@@ -46,7 +46,7 @@ section {
 			width: 100%;
 			position: relative;
 			background-color: $red;
-			background-image: url(../image/a22.jpg);
+			background-image: url(../image/top-banner.jpg);
 			background-position: center center;
       background-repeat: no-repeat;
       background-attachment: fixed;
@@ -278,7 +278,7 @@ section {
 	display: flex;
 	background-color: #b0bec5;
 	@media (max-width: 767px) {
-     height: 1500px;
+     height: 950px;
 	}
   .skills {
   	// margin: 0 auto;
@@ -333,14 +333,14 @@ main{
 	margin: 5em auto;
   .my-project {
   	font-size: 60px;
-  	color: $light-gray;
+  	color: $black;
   	padding-top: 20px;
 		text-shadow: 0 2px 2px $medium-grey;
 
   }
   .about-my-project {
   	font-size: 21px;
-  	color: $light-gray;
+  	color: $black;
 		padding: 20px;
   }
 
@@ -514,7 +514,7 @@ img {
 		position: relative;
 
 		display: flex;
-		background-image: url(../image/a22.jpg);
+		background-image: url(../image/top-banner.jpg);
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-attachment: fixed;
@@ -584,6 +584,7 @@ section .parallax-1 .new-parallax .type-wrap {
 
 .h1-responsive {
 	font-size: 20px;
+	text-shadow: 0 2px 2px #000;
 }
 
 .skills-icon {
@@ -606,6 +607,12 @@ section .parallax-1 .new-parallax .type-wrap {
 	color: #fff;
 	margin: 20px;
 	border-radius: 22px;
+	@media (max-width: 768px) {
+		width: 110px;
+		padding: 10px 0;
+		margin: 10px;
+
+	}
 }
 
 .skill-rec:hover {

@@ -25,7 +25,7 @@ section {
     width: 100%;
     position: relative;
     background-color: #ff414b;
-    background-image: url(../image/a22.jpg);
+    background-image: url(../image/top-banner.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -187,7 +187,7 @@ section {
   background-color: #b0bec5; }
   @media (max-width: 767px) {
     .skills-section {
-      height: 1500px; } }
+      height: 950px; } }
   .skills-section .skills {
     margin: auto; }
   .skills-section .container {
@@ -219,12 +219,12 @@ main {
   margin: 5em auto; }
   main .my-project {
     font-size: 60px;
-    color: #ECECEC;
+    color: #151515;
     padding-top: 20px;
     text-shadow: 0 2px 2px #7f8c8d; }
   main .about-my-project {
     font-size: 21px;
-    color: #ECECEC;
+    color: #151515;
     padding: 20px; }
   main .img-center {
     margin-bottom: 100px;
@@ -346,7 +346,7 @@ img {
   .new-parallax {
     position: relative;
     display: flex;
-    background-image: url(../image/a22.jpg);
+    background-image: url(../image/top-banner.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -392,7 +392,8 @@ img {
     margin: 10px;
     width: 80%; } }
 .h1-responsive {
-  font-size: 20px; }
+  font-size: 20px;
+  text-shadow: 0 2px 2px #000; }
 
 .skills-icon {
   width: 100px;
@@ -412,6 +413,11 @@ img {
   color: #fff;
   margin: 20px;
   border-radius: 22px; }
+  @media (max-width: 768px) {
+    .skill-rec {
+      width: 110px;
+      padding: 10px 0;
+      margin: 10px; } }
 
 .skill-rec:hover {
   opacity: 0.8;
